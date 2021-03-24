@@ -1,0 +1,165 @@
+﻿body
+{
+}
+
+.footerbottom
+{
+	background-color: #c41230;
+	padding-top:5px;
+	color: #fff;
+}
+
+
+
+	.footerbottom p
+	{
+		font-size:14px;
+		text-align: center;
+		color:#fff;
+	}
+
+	.footerbottom strong
+	{
+		color: red;
+	}
+
+	.footerbottom h4
+	{
+		text-align: right;
+	}
+
+
+.footbg
+{
+	padding-bottom:40px;
+	padding-top:20px;
+	background-color: #edeef0;
+	/*color: #EFEBE9;*/
+}
+
+
+.footentry a
+{
+	color: #000;
+	font-size: 20px;
+	background-color: red;
+	border-radius: 4px;
+	margin-right: 48px;
+}
+
+.footbg h4
+{
+	padding: 0px;
+	font-weight: bolder;
+	padding-bottom: 12px;
+	padding-top: 12px;
+}
+
+.footentry h3
+{
+	font-weight: bolder;
+}
+
+.footentry p
+{
+	padding: 0px 95px 0px 0px;
+	margin-top: 20px;
+	font-weight: 100;
+	font-size: 14px;
+	color:#fff;
+}
+
+.footbg ul
+{
+	padding: 0px;
+	list-style: none;
+	margin-top: 10px;
+	line-height: 1;
+}
+
+.ftinfo
+{
+}
+
+	.ftinfo h1
+	{
+		color: #c41230;
+		font-weight: 600;
+		font-size: 30px;
+	}
+	.ftinfo p
+	{
+		color: #000;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+.ftquick ul
+{
+	padding-left: 78px;
+	line-height: 42px;
+}
+
+.ftquick p
+{
+	color: #000;
+	font-size: 12px;
+}
+
+.ftquick h1
+{
+	color:#c41230;
+	font-weight:600;
+	font-size:30px;
+}
+
+/*.footerbottom::before
+{
+	display: inline-block;
+	background: rgba(128, 128, 128, 4.1);
+	font-size: 2px;
+	content: '-\00';
+	width: 1290px;
+	right: 30px;
+	position: absolute;
+}*/
+
+.footerbottom i
+{
+	color: #000;
+	font-size: 45px;
+}
+
+.bottom
+{
+	
+	margin-top:10px;
+	
+}
+
+
+.ftinfo ul li i
+{
+	margin-right: 3px;
+}
+
+.mgl5
+{
+	margin-left: 5px;
+}
+
+/*scrolltopbutton*/ 
+#myBtn
+{
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: red; /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	border-radius: 5px; /* Rounded corners */
+}

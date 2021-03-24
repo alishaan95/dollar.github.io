@@ -1,0 +1,530 @@
+﻿body
+{
+	
+}
+
+.tophd
+{
+	    padding-top: 8px;
+    padding-bottom: 8px;
+	background-color:#edeef0;
+}
+
+	.tophd h1
+	{
+		color: #000;
+		font-size: 14px;
+		font-weight:bolder;
+	}
+.logo
+{
+	 width:70%;  float:left;
+}
+
+.txtalg
+{
+	text-align:center !important;
+}
+
+	.tophd span
+	{
+		color:#C42032;
+		font-size: 14px;
+		font-weight:bolder;
+	}
+.tophd a i 
+{
+	color: #C42032; padding: 0px 4px;
+}
+.tophd a i:hover
+{
+	color: #000;
+}
+.clearfix45
+{
+	margin-top:45px !important;
+}
+
+.whychoose
+{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+	.whychoose img
+	{
+		max-width:100%;
+	}
+.whychoose h1
+{
+	color:#c41230 !important;
+	text-transform:uppercase;
+	font-size:30px;
+	letter-spacing:1px;
+	text-align:center;
+	font-weight:600;
+}
+.whychoose h2
+{
+	font-size: 15px;
+    letter-spacing: 1px;
+    color: #000;
+    text-align: center;
+	margin-top:12px;
+}
+
+.whychooseul
+{
+	    padding-top: 5%;
+
+}
+	.whychooseul li
+	{
+		list-style:none; line-height:3.1;
+	}
+	.whychooseul li i
+	{
+		color:#c41230; margin-right:5px;
+	} 
+
+.newheader
+{
+	position: fixed;
+	left: 0;
+	width: 100%;
+	padding: 0px;
+	z-index: 10000;
+	transition: all 0.5s ease-in-out;
+	background-color: #fff;
+	text-align: right;
+	box-shadow: 2px 2px 2px 0px rgba(5, 5, 5, 0.06);
+}
+
+	.newheader.active
+	{
+		top: 0px;
+		position: fixed;
+		background-color: #fff;
+		margin-top: 0px;
+		padding: 3px 0;
+	}
+
+.rserv
+{
+	background-color: #edeef0;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.rserv img {
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+.fafafa {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    top: -22px;
+    padding: 5px 10px;
+    background-color: #c41230 ;
+    color: #fff;
+    border-radius: 30px;
+    margin: 0px auto;
+}
+
+.bottomtxt {
+        position: relative;
+    color: #000;
+    font-weight: bolder;
+    font-size: 17px;
+    border-radius: 74px 74px;
+    text-align: center; letter-spacing:1px;
+}
+
+.whatshot
+{
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+.whatshot h1
+{
+	    color: #c41230 !important;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 600;
+	max-width:100%;
+}
+	.whatshot img
+	{
+		height:230px;
+		width:230px;
+	}
+
+.bgg
+{
+	background-color:#edeef0;
+	padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bgbox
+{
+	background-color: #fff;
+	 padding-bottom:10px;
+	color: #000; transition: border-radius 1s; border-radius:0px;
+	    text-align: center;
+}
+.bgbox:hover
+{transition: border-radius 1s; border-radius:50px;
+}
+
+	.bgbox img
+	{
+		margin-top: 30px;
+	}
+
+	.bgbox i
+	{
+		font-size: 100px;
+		color: #c41230;
+		margin-top: 30px;
+	}
+
+	.bgbox p
+	{
+		font-size: 22px; letter-spacing:1px;
+		font-weight: bold;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+.fontsz p
+{
+	    font-size: 18px;
+}
+
+
+
+
+.fontsz a
+{
+	color:#5a99cf;
+}
+
+
+.red-li
+{
+	color:#c41230 !important;
+}
+
+@media all and (max-width: 767px)
+{
+	.provide p
+	{
+		line-height: 1.0;
+		color: #000;
+		font-size: 11px;
+		margin-bottom: 30px;
+	}
+
+	.provide h4
+	{
+		font-size: 11px;
+	}
+
+	.quality
+	{
+		height: auto;
+	}
+
+	.plogo
+	{
+		width: 100%;
+	}
+
+	.quality h3
+	{
+		font-size: 20px;
+	}
+
+	.quality h2
+	{
+		font-size: 29px;
+	}
+
+	.imagered
+	{
+		height: auto;
+	}
+
+	.imgvacc
+	{
+		display: none !important;
+	}
+
+	.book
+	{
+		font-size: 18px;
+	}
+
+	.facetxt h3
+	{
+		font-size: 12px;
+	}
+
+	.facetxt h2
+	{
+		font-size: 24px;
+	}
+
+	.facetxt p
+	{
+		font-size: 15px;
+	}
+
+	.quote p
+	{
+		font-size: 20px;
+		margin-left: 25px;
+	}
+
+	.comimg
+	{
+		margin-top: 25px;
+	}
+
+	.comment p
+	{
+		font-size: 12px;
+		padding: 0px 25px;
+	}
+
+	.comment h4
+	{
+		font-size: 12px;
+	}
+
+	.bgbox
+	{
+		margin-top: 20px;
+	}
+
+		.bgbox p
+		{
+			font-size: 22px;
+		}
+
+	.quality h5
+	{
+		font-size: 15px;
+	}
+
+	.partners h1
+	{
+		font-size: 25px;
+	}
+
+	.partners i
+	{
+		font-size: 20px;
+	}
+
+	.ourservice h1
+	{
+		font-size: 25px;
+	}
+
+	.ourservice h3
+	{
+		font-size: 20px;
+	}
+
+	.paragraph h3
+	{
+		font-size: 12px;
+	}
+
+
+	.bottom-line
+	{
+		font-size: 21px;
+	}
+
+	.middle-line
+	{
+		font-size: 30px;
+	}
+
+	.first-line
+	{
+		margin-top: 0px;
+	}
+
+	.legaltxt
+	{
+		margin-top: 80px;
+	}
+
+	.bg-img
+	{
+		height: 270px;
+	}
+
+	.legalimg
+	{
+		height: 270px;
+	}
+
+	.intro h1
+	{
+		font-size: 17px;
+	}
+
+	.footerbottom p
+	{
+		font-size: 9px;
+		float: left;
+	}
+
+	.footentry p
+	{
+		padding: 0px 0px;
+		font-size: 14px;
+	}
+
+	.ftquick ul
+	{
+		padding-left: 0px;
+	}
+
+	.footentry a
+	{
+		margin-right: 26px;
+		font-size: 20px;
+	}
+
+	.imgcl
+	{
+		width: 100%;
+	}
+
+	
+}
+
+
+
+@media all and (max-width: 360px) and (min-width: 300px)
+{
+	.imgvacc
+	{
+		display: none !important;
+	}
+
+	.whychoose img
+	{
+		    width: 300px;
+	}
+
+	.tophd h1
+	{
+		    display: none;
+	}
+
+	.tophd img
+	{
+		display:none;
+	}
+
+	.whatshot img
+	{
+		width:300px;
+	}
+
+	.logo
+	{
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px)
+{
+	.bottomtxt
+	{
+		font-size: 16px;
+	}
+
+	.imgvacc
+	{
+		padding-left: 0px;
+	}
+
+	.comment p
+	{
+		padding: 0px 191px;
+	}
+
+	.bgbox p
+	{
+		font-size: 15px;
+	}
+
+	.border
+	{
+		width: 100%;
+	}
+
+	.plogo
+	{
+	}
+
+	.footentry p
+	{
+		padding: 0px 10px 0px 0px;
+	}
+
+	.footentry a
+	{
+		margin-right: 24px;
+	}
+
+	.menu li a
+	{
+		padding: 25px 0px 0px 4px;
+		font-size: 13px;
+	}
+
+	.whychoose img
+	{
+		    width: 400px;
+	}
+
+
+}
+
+@media (max-width: 767px)
+{
+	.tophd h1
+	{
+		    display: none;
+	}
+
+	.tophd img
+	{
+		display:none;
+	}
+
+	.whatshot img
+	{
+		width:345px;
+	}
+
+	.logo
+{
+		width: 100%;
+}
+
+}
